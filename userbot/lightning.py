@@ -16,7 +16,7 @@ OKAY = "[SUPPORT GROUP](https://t.me/BeingImimmortal)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
 ALIVE = "USER BOT IS ON 🔥 FIRE 🔥" #make by LEGENDX22 for black lightning
-USERBOT = " HELLO MASTER MY NAME IS BLACK LIGHTNING BOT I AM A BEST USERBOT 💝"
+USERBOT = " HELLO MASTER MY NAME IS BLACK userbot BOT I AM A BEST USERBOT 💝"
 EMOJI = "⚡"
 #yrr isko apne bot me aply krne se pehle mere se pooch lena ok
 #aur aage add kruga abhi busy okay 🤔
