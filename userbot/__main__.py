@@ -27,7 +27,7 @@ async def startup_log_all_done():
     try:
         await bot.send_message(
             TELE,
-            f"**Black Lightning has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
+            f"** userbot has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
         )
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
@@ -81,19 +81,19 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
                 pass
     sed.info("Black Lightning Has Been Deployed Successfully !")
     sed.info("╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪")
-    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - ʙʟᴀᴄᴋ-ʟɪɢʜᴛɴɪɴɢ ᴜꜱᴇʀ ")
+    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - Akash Raj yadav ")
     sed.info("║┣⪼ Ⲋⲧⲁⲧυⲋ - Ⲟⲛⳑⲓⲛⲉ")
     sed.info("║┣⪼ Ⲃⲟⲧ Ⳳⲉʀⲋⲓⲟⲛ - 1.2.0")   
     sed.info("║┣⪼ Ⳙⲣⲧⲓⲙⲉ - 00h:00m:4s ")
     sed.info("║┣⪼ Ⲃⲟⲧ Ⲣⲓⲛⳋ - 0.006")
     sed.info("║┣⪼ Ⲣⲩⲧⲏⲟⲛ - 3.9.2")
     sed.info("║┣⪼ Ⲧⲉⳑⲉⲧⲏⲟⲛ - 1.17.0 ")
-    sed.info("║┣⪼ ✨𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨")
+    
     sed.info("║╰━━━━━━━━━━━━━━━➣ ")
     sed.info("╚══════════════════❍⊱❁۪۪")
 else:
-    sed.info("Black Lightning Has Been Installed Sucessfully !")
-    sed.info("You Can Visit @lightning_support For Any Support Or Doubts")
+    sed.info("userbot Has Been Installed Sucessfully !")
+    
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
