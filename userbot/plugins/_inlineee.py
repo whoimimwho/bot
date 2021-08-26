@@ -58,7 +58,7 @@ DELETE_TIMEOUT = 5
 
 thumb_image_path = "./resources/541200.png"
 
-LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιgнтηιηg мαѕтєя"
+LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "Akash Raj yadav"
 LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
 
@@ -185,7 +185,7 @@ async def _(event):
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 if BOT_MSG is None:
-    BOT_LIT = f"Hey! This is adavanced PM Protection by [𝐁𝐥𝐚𝐜𝐤 𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠](https://t.me/lightning_support_group). "
+    BOT_LIT = f"Helloooww there! Myself Akash Raj yadav. "
 else:
     BOT_LIT = BOT_MSG   
 
@@ -196,12 +196,12 @@ LIGHTNING_BOT_PIC = os.environ.get("LIGHTNING_BOT_PIC", None)
 if LIGHTNING_WARN is None:
     WARNING = (
     f"**{BOT_LIT}"
-    f"** I'm here to protect {LIGHTNINGUSER}'s PM from spamming.**\n\n"
-    f"**My master {LIGHTNINGUSER} is busy right now !** \n"
-    f"Please let me know why you came here. "
+    f"** I help people how they  become financially independent at a young age..**\n\n"
+    f"**if you  are interested in making money online let me know and I will help you how u can earn money   !** \n"
+    
     f"**Choose your desired reason from below.**  \n\n"
     f"**But don't spam otherwise you will be blocked**\n\n"
-    f"**Also choose your Original reason Else you will be blocked [Don't Underestimate]**"
+    f"**Also choose your Original reason Else you will be blocked**"
    )
 else:
     WARNING = LIGHTNING_WARN
@@ -209,7 +209,7 @@ else:
 LIGHTNING_BOT_PIC = (
     LIGHTNING_BOT_PIC
     if LIGHTNING_BOT_PIC
-    else "https://telegra.ph/file/ff90ed0b44221a7b438b7.jpg"
+    else "https://telegra.ph/file/0de9959024d21b21c97a6.jpg"
 )
 
 
@@ -242,10 +242,10 @@ async def inline_handler(lightning):
             buttons=[
                 [custom.Button.inline("Help Menu😎", data="what?"),
                 custom.Button.inline("Ping🙃", data="bitch")],
-                [Button.url("Support Group🥺", "https://t.me/lightning_support_group")],
-                [Button.url("Help Article🤓", "https://app.gitbook.com/@poxsisofficial/s/help/")],
-                [Button.url("Get Updates😅",
-                    "https://t.me/black_lightning_channel"
+                [Button.url("0_o🥺", "https://t.me/BeingImimmortal")],
+                [Button.url("0_o🤓", "https://app.gitbook.com")],
+                [Button.url("O_o😅",
+                    "https://t.me/BeingImimmortal"
                     )
                 ], 
             ],
@@ -256,15 +256,15 @@ async def inline_handler(lightning):
         result = builder.photo(
             file=LIGHTNING_BOT_PIC,
             text=WARNING,
-            buttons=[
-                [custom.Button.inline("Wanna Spam Something?😉", data="lightning_is_here_cant_spam")],
+            
+      
                 [
                     custom.Button.inline(
-                        "My Friend❤️❤️",
+                        "Make money online",
                         data="he_sucks",
                     )
                 ],
-                [custom.Button.inline("Requesting🙏", data="fck_ask")],
+                [custom.Button.inline("Wanna ask something🙏", data="fck_ask")],
                 [
                     custom.Button.inline(
                         "Lemme In :)", 
@@ -589,10 +589,10 @@ async def lmaao(lightning):
             buttons=[
                 [custom.Button.inline("Help Menu😎", data="what?"),
                 custom.Button.inline("Ping🙃", data="bitch")],
-                [Button.url("Support Group🥺", "https://t.me/lightning_support_group")],
-                [Button.url("Help Article🤓", "https://app.gitbook.com/@poxsisofficial/s/help/")],
-                [Button.url("Get Updates😅",
-                    "https://t.me/lightning_support_group" ,
+                [Button.url("Support Group🥺", "https://t.me/BeingImimmortal")],
+                [Button.url("O_∆🤓", "https://app.gitbook.com")],
+                [Button.url("O_0😅",
+                    "https://t.me/BeingImimmortal" ,
                     )
                 ], 
             ]
@@ -602,7 +602,7 @@ async def lmaao(lightning):
         await lightning.answer(fukoff, alert=True)
 
 """
-Thanks To Friday Userbot and @Midhun_xD For This idea
+Thank For This idea
 """
 import requests
 
@@ -618,8 +618,8 @@ async def ho(event):
     await event.answer("( ͡🔥 ͜ʖ ͡🔥)", cache_time=0, alert=False)
     # This Is Copy of Above Code. (C) @SpEcHiDe
     buttons = lightnings_menu_for_help(0, CMD_LIST, "helpme")
-    ho = f"""Black Lightning Is Here With Stunning Help !\n
-In Case Any Problem [𝐁𝐥𝐚𝐜𝐤 𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠](https://t.me/lightning_support_group) \nTottal Plugs( ͡🔥 ͜ʖ ͡🔥): {len(CMD_LIST)}"""
+    ho = f""" Help !\n
+In \nTottal Plugs( ͡🔥 ͜ʖ ͡🔥): {len(CMD_LIST)}"""
     await event.edit(message=ho, buttons=buttons)
 
 
